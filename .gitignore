@@ -1,0 +1,8 @@
+myenv/
+.env
+logs/
+.ipynb_checkpoints/
+models/logistics_delay_model.pkl
+*.pkl
+__pycache__/
+*.pyc
