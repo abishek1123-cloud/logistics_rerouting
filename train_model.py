@@ -202,7 +202,7 @@ def main():
     log.info("Cross-validation (3-fold) ...")
     tscv   = TimeSeriesSplit(n_splits=3)
     hgb_cv = cross_val_score(model, X, y, cv=tscv, scoring="accuracy", n_jobs=-1).tolist()
-    rf_cv  = cross_val_score(rf,    X, y, cv=tscv, scoring="accuracy", n_jobs=-1).tolist()
+    rf_cv = cross_val_score(rf, X, y, cv=tscv, scoring="accuracy", n_jobs=1).tolist()
 
     log.info("Permutation importance ...")
     idx  = X_te.sample(min(2000,len(X_te)), random_state=42).index

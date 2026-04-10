@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ⬡ Nexus Logistics AI
 ### AI-Powered Mid-Voyage Early Warning & Rerouting System
 
@@ -31,6 +30,18 @@ Supply chain teams face constant pressure from port congestion, labor strikes, e
 - Triggering rerouting recommendations when `ai_delay_prob > 0.60`
 - Running a LangGraph 3-node LLM pipeline (Llama-3.3-70b via Groq) for natural-language rerouting reasoning
 - Delivering everything through a 7-tab cyberpunk-themed Streamlit dashboard
+
+---
+
+## 🚀 Live Demo
+
+Experience the AI-powered logistics dashboard here:
+
+👉 https://abishek1123-cloud-logistics-rerouting-app-jnrabc.streamlit.app/
+
+- Real-time delay prediction  
+- AI-based rerouting recommendations  
+- Interactive dashboard  
 
 ---
 
@@ -284,4 +295,4 @@ Opens at `http://localhost:8501`. The sidebar allows filtering by risk status, o
 ---
 =======
 # logistics_rerouting
->>>>>>> fd9fd10b783610cc68519c0b3c3f603765a5885e
+

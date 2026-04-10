@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 myenv/
 .env
 logs/
 .ipynb_checkpoints/
-models/logistics_delay_model.pkl
-*.pkl
 __pycache__/
 *.pyc
 =======
@@ -215,4 +212,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
->>>>>>> fd9fd10b783610cc68519c0b3c3f603765a5885e
+
