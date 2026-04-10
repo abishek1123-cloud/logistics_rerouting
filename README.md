@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⬡ Nexus Logistics AI
 ### AI-Powered Mid-Voyage Early Warning & Rerouting System
 
@@ -281,3 +282,6 @@ Opens at `http://localhost:8501`. The sidebar allows filtering by risk status, o
 | 🤖 LLM Agent | LangGraph 3-node pipeline interface — select origin/destination, run Llama-3.3-70b rerouting analysis, view RISK / RECOMMENDATION / CONFIDENCE output with pipeline trace |
 
 ---
+=======
+# logistics_rerouting
+>>>>>>> fd9fd10b783610cc68519c0b3c3f603765a5885e
